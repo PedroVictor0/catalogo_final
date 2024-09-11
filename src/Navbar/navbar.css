@@ -1,0 +1,55 @@
+/* navbar.css */
+
+.nav {
+    display: flex;                  /* Usa Flexbox para layout */
+    justify-content: space-between;/* Espaça os itens ao longo do eixo principal */
+    align-items: center;            /* Alinha itens verticalmente no centro */
+    padding: 10px;                  /* Adiciona algum preenchimento ao redor da barra */
+    background-color: #333;         /* Cor de fundo da barra de navegação */
+    color: white;      
+    padding: 15px;             /* Cor do texto */
+}
+
+.nav h2 {
+    margin: 0;                      /* Remove a margem padrão do h2 */
+}
+
+.nav ul {
+    display: flex;                  /* Usa Flexbox para layout da lista */
+    list-style-type: none;          /* Remove marcadores de lista */
+    margin: 0;                      /* Remove margem padrão */
+    padding: 0;                     /* Remove preenchimento padrão */
+}
+
+.nav li {
+    margin-left: 15px;              /* Espaçamento entre os itens da lista */
+}
+
+.nav a {
+    text-decoration: none;          /* Remove sublinhado dos links */
+}
+
+.nav button {
+    background-color: #333;         /* Cor de fundo do botão */
+    border: none;                   /* Remove borda do botão */
+    color: white;                   /* Cor do texto do botão */
+    padding: 10px 15px;             /* Preenchimento interno do botão */
+    cursor: pointer;                /* Mostra o cursor de pointer ao passar sobre o botão */
+    transition: background-color 0.3s, color 0.3s; /* Adiciona transição suave para a mudança de cor */
+}
+
+.nav button:hover {
+    background-color: #00c3ff;         /* Cor de fundo do botão ao passar o mouse */
+    color: white;                    /* Cor do texto do botão ao passar o mouse */
+}
+
+.nav input {
+    padding: 10px;                  /* Preenchimento interno do campo de entrada */
+    border: 1px solid #666;         /* Borda do campo de entrada */
+    border-radius: 5px;             /* Bordas arredondadas do campo de entrada */
+    transition: border-color 0.3s;  /* Adiciona transição suave para a borda */
+}
+
+.nav input:hover {
+    border-color: #888;             /* Cor da borda do campo de entrada ao passar o mouse */
+}
